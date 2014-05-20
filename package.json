@@ -21,6 +21,10 @@
     "url": "https://github.com/spenceralger/gulp-jshint-file-reporter/issues"
   },
   "homepage": "https://github.com/spenceralger/gulp-jshint-file-reporter",
+  "peerDependencies": {
+    "gulp": "*",
+    "gulp-jshint": "*"
+  },
   "devDependencies": {
     "gulp-jshint": "~1.6.1",
     "gulp-util": "~2.2.14",
