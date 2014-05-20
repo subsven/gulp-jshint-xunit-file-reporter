@@ -1,0 +1,30 @@
+{
+  "name": "gulp-jshint-file-reporter",
+  "version": "0.0.0",
+  "description": "A simple reporter for gulp-jshint that writes it's output to a file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spenceralger/gulp-jshint-file-reporter"
+  },
+  "keywords": [
+    "gulp",
+    "jshint",
+    "reporter"
+  ],
+  "author": "Spencer Alger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spenceralger/gulp-jshint-file-reporter/issues"
+  },
+  "homepage": "https://github.com/spenceralger/gulp-jshint-file-reporter",
+  "devDependencies": {
+    "gulp-jshint": "~1.6.1",
+    "gulp-util": "~2.2.14",
+    "mocha": "~1.19.0",
+    "should": "~3.3.1"
+  }
+}
