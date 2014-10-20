@@ -1,14 +1,14 @@
 {
-  "name": "gulp-jshint-file-reporter",
+  "name": "gulp-jshint-xunit-file-reporter",
   "version": "0.0.1",
-  "description": "A simple reporter for gulp-jshint that writes it's output to a file.",
+  "description": "A simple reporter for gulp-jshint that writes it's output to a xunit file.",
   "main": "index.js",
   "scripts": {
     "test": "mocha test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/spenceralger/gulp-jshint-file-reporter"
+    "url": "https://github.com/subsven/gulp-jshint-file-reporter"
   },
   "keywords": [
     "gulp",
@@ -18,9 +18,9 @@
   "author": "Spencer Alger",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/spenceralger/gulp-jshint-file-reporter/issues"
+    "url": "https://github.com/subsven/gulp-jshint-file-reporter/issues"
   },
-  "homepage": "https://github.com/spenceralger/gulp-jshint-file-reporter",
+  "homepage": "https://github.com/subsven/gulp-jshint-file-reporter",
   "peerDependencies": {
     "gulp": "*",
     "gulp-jshint": "*"
