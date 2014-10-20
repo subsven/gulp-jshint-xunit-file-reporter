@@ -2,6 +2,8 @@ var fs = require('fs');
 
 var defaultFilename = 'jshint-output.xml';
 
+var suite = 'jshint';
+
 var wrStream;
 var filename;
 
