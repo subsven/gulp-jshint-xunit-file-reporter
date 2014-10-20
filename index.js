@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-var defaultFilename = 'jshint-output.log';
+var defaultFilename = 'jshint-output.xml';
 
 var wrStream;
 var filename;

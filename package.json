@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/subsven/gulp-jshint-file-reporter"
+    "url": "https://github.com/subsven/gulp-jshint-xunit-file-reporter"
   },
   "keywords": [
     "gulp",
@@ -18,9 +18,9 @@
   "author": "Spencer Alger",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/subsven/gulp-jshint-file-reporter/issues"
+    "url": "https://github.com/subsven/gulp-jshint-xunit-file-reporter/issues"
   },
-  "homepage": "https://github.com/subsven/gulp-jshint-file-reporter",
+  "homepage": "https://github.com/subsven/gulp-jshint-xunit-file-reporter",
   "peerDependencies": {
     "gulp": "*",
     "gulp-jshint": "*"

@@ -1,14 +1,14 @@
-[![Build Status](https://travis-ci.org/spenceralger/gulp-jshint-file-reporter.svg?branch=master)](https://travis-ci.org/spenceralger/gulp-jshint-file-reporter)
+[![Build Status](https://travis-ci.org/spenceralger/gulp-jshint-xunit-file-reporter.svg?branch=master)](https://travis-ci.org/spenceralger/gulp-jshint-xunit-file-reporter)
 
 ## Information
 
 <table>
 <tr>
-<td>Package</td><td>gulp-jshint-file-reporter</td>
+<td>Package</td><td>gulp-jshint-xunit-file-reporter</td>
 </tr>
 <tr>
 <td>Description</td>
-<td>simple reporter for gulp-jshint. writes output to a file.</td>
+<td>simple reporter for gulp-jshint. writes output to a xunit file.</td>
 </tr>
 <tr>
 <td>Node Version</td>
@@ -18,7 +18,7 @@
 
 ## Install
 
-    npm install gulp-jshint-file-reporter --save-dev
+    npm install gulp-jshint-xunit-file-reporter --save-dev
 
 ## Usage
 
@@ -29,7 +29,7 @@ var jshint = require('gulp-jshint');
 gulp.task('lint', function() {
   return gulp.src('./lib/*.js')
     .pipe(jshint())
-    .pipe(jshint.reporter('gulp-jshint-file-reporter', {
+    .pipe(jshint.reporter('gulp-jshint-xunit-file-reporter', {
       filename: __dirname + '/jshint-output.log'
     }));
 });
@@ -42,7 +42,7 @@ Plugin options:
 Type: `filename`
 Default: `"jshint-output.log"`
 
-The filename to write output from jshint. When linting is successfull, the file is not created.
+The filename to write output from jshint.
 
 ## LICENSE
 
