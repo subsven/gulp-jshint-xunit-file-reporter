@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-var defaultFilename = 'jshint-output.xml';
+var defaultFilename = 'jshint-output';
 
 var suite = 'jshint';
 var filenameCount = 0;
@@ -48,7 +48,7 @@ module.exports = function (results, data, opts) {
   opts.filename = opts.filename || defaultFilename;
 
   filenameCount++;
-  wrStream = fs.createWriteStream('' + filenameCount + opts.filename);
+  wrStream = fs.createWriteStream(opts.filename + '-' + filenameCount + '.xml');
 
   var out = [];
   var files = {};
